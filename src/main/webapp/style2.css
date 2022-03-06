@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+main{
+
+    background:  url("reaper.jpg") ;
+    background-size: cover;
+    background-attachment: fixed ;
+    padding: 50px;
+
+}
+body{
+    margin: 0px;
+}
+
+#formdiv{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 20px 10px 20px;
+    width: 650px;
+    height: auto;
+    scrollbar-color: gray;
+    scrollbar-width: thin ;
+    
+    margin-left: 25%;
+    
+    border-radius: 20px;
+    color: honeydew;
+
+
+}
+#new{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 20px 10px 20px;
+    width: 650px;
+    height: 500px;
+    scrollbar-color: gray;
+    scrollbar-width: thin ;
+    
+    margin-left: 25%;
+    
+    border-radius: 20px;
+    color: honeydew;
+
+
+}
+p{
+
+    font-size: 18px;
+
+}
+p#main {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"],input[type="password"],select,input[type="number"],
+input[type="email"],textarea,::placeholder{
+    
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: gray;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+
+}
+input[type="text"]{
+
+    width: 30%;
+
+}
+
+
+input[type="number"]{
+
+    width: 50%;
+
+}
+select{
+
+    width: 10%;
+
+}
+
+textarea{
+
+    width: 600px;
+    height: 85px;
+}
+input[type="submit"]{
+
+    margin-left: 40%;
+    
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 0;
+    
+    
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    background-color: gray;
+    border: none;
+
+
+}
+input[type="submit"]:hover{
+
+        background-color:blueviolet;
+
+}
+#err1,#err2,#err3,#err4,#err5,#err6{
+    color: red;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+header {
+    
+    background-color:blueviolet;
+    text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+a{
+    color: blue;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
